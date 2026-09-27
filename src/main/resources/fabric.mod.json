@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "chatfilter",
+	"version": "${version}",
+	"name": "Chatfilter",
+	"description": "Filtert den Minecraft-Chat und leitet Nachrichten in eigene, frei platzierbare Chat-Fenster um (wie die Second-Chat-/Chat-Tab-Funktion von LabyMod).",
+	"authors": [
+		"BIG_Gamba"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"de.biggamba.chatfilter.ChatfilterMod"
+		]
+	},
+	"mixins": [
+		{
+			"config": "chatfilter.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

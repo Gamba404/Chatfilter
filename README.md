@@ -1,6 +1,6 @@
 # Chatfilter
 
-Ein clientseitiger Fabric-Mod für **Minecraft 26.2**, der den Chat filtert und Nachrichten in eigene,
+Ein clientseitiger Fabric-Mod für **Minecraft 26.3**, der den Chat filtert und Nachrichten in eigene,
 frei platzierbare Chat-Fenster umleitet – vergleichbar mit der Second-Chat-/Chat-Tab-Funktion von LabyMod,
 aber mit vollem Regex-Support.
 
@@ -78,9 +78,9 @@ Zum Testen im Entwicklungs-Client:
 
 | Baustein | Version |
 | --- | --- |
-| Minecraft | 26.2 |
+| Minecraft | 26.3 |
 | Fabric Loader | 0.19.3 |
-| Fabric API | 0.156.0+26.2 |
+| Fabric API | 0.162.0+26.3 |
 | Fabric Loom | 1.17 |
 | Gradle | 9.5.1 |
 | Java | 25 (wird von Gradle automatisch geladen) |

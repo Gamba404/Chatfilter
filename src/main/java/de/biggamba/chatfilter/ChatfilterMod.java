@@ -21,7 +21,7 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
-import org.lwjgl.glfw.GLFW;
+import com.mojang.blaze3d.platform.InputConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -45,7 +45,7 @@ public class ChatfilterMod implements ClientModInitializer {
 				new ChatWindowHudElement());
 
 		openConfigKey = KeyMappingHelper.registerKeyMapping(
-				new KeyMapping("key.chatfilter.open", GLFW.GLFW_KEY_K, KeyMapping.Category.MISC));
+				new KeyMapping("key.chatfilter.open", InputConstants.KEY_K, KeyMapping.Category.MISC));
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			while (openConfigKey.consumeClick()) {

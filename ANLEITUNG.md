@@ -8,7 +8,7 @@ Der Mod läuft nur bei dir. Der Server merkt nichts davon, du kannst ihn überal
 
 ## Installieren
 
-1. Fabric für **Minecraft 26.2** installieren.
+1. Fabric für **Minecraft 26.3** installieren.
 2. **Fabric API** und **chatfilter-1.0.0.jar** in deinen `mods`-Ordner legen.
 3. Minecraft starten – fertig.
 
